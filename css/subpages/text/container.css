@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "ponur";
+  src: url("../../../design/fonts/PPObjectSans-Heavy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+.container {
+  width: 96vw;
+  height: 40vw;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container .container-title1 {
+  display: flex;
+  top: 7vw;
+  left: 23.5vw;
+  position: absolute;
+}
+.container .container-title1 span {
+  font-size: 2.4vw;
+  color: purple;
+  font-weight: 650;
+  font-family: "ponur";
+}
+.container .container-textbox {
+  width: 40vw;
+  height: 30vw;
+  border: 1.1vw solid black;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.container .container-textbox span {
+  width: 30vw;
+  font-size: 1.8vw;
+  font-family: "ponur";
+}
+.container .container-title2 {
+  display: flex;
+  top: 7vw;
+  left: 62.5vw;
+  position: absolute;
+}
+.container .container-title2 span {
+  font-size: 2.4vw;
+  color: purple;
+  font-weight: 650;
+  font-family: "ponur";
+}
+.container .container-codebox {
+  width: 40vw;
+  height: 30vw;
+  border: 1.1vw solid black;
+  display: flex;
+}
+.container .container-codebox pre {
+  width: 30vw;
+  font-size: 1vw;
+  font-family: "ponur";
+}
+
+/*# sourceMappingURL=container.css.map */

@@ -1,0 +1,82 @@
+
+@font-face {
+    font-family: "ponur";
+    src: url("../../../design/fonts/PPObjectSans-Heavy.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+.container{
+    width: 96vw;
+    height: 40vw;
+    background-color: rgb(255, 255, 255);
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .container-title1{
+        display: flex;
+        top: 7vw;
+        left: 23.5vw;
+        position: absolute;
+        span{
+            font-size: 2.4vw;
+            color:  purple;
+            font-weight: 650;
+            font-family: "ponur";
+        }
+
+
+    }
+
+    .container-textbox{
+        
+
+        width: 40vw;
+        height: 30vw;
+        border: 1.1vw solid black;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
+        span{
+            width: 30vw;
+            font-size: 1.8vw;
+            font-family: "ponur";
+        }
+
+    }
+    .container-title2{
+        display: flex;
+        top: 7vw;
+        left: 62.5vw;
+        position: absolute;
+        span{
+            font-size: 2.4vw;
+            color:  purple;
+            font-weight: 650;
+            font-family: "ponur";
+        }
+
+
+    }
+
+    .container-codebox{
+        
+
+        width: 40vw;
+        height: 30vw;
+        border: 1.1vw solid black;
+        
+        display: flex;
+        
+
+        pre{
+            width: 30vw;
+            font-size: 1vw;
+            font-family: "ponur";
+        }
+
+    }
+
+}
