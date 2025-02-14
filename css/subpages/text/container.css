@@ -25,6 +25,7 @@
   font-family: "ponur";
 }
 .container .container-textbox {
+  overflow: hidden;
   width: 40vw;
   height: 30vw;
   border: 1.1vw solid black;
@@ -50,6 +51,7 @@
   font-family: "ponur";
 }
 .container .container-codebox {
+  overflow: hidden;
   width: 40vw;
   height: 30vw;
   border: 1.1vw solid black;

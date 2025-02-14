@@ -6,6 +6,7 @@
     font-style: normal;
   }
 .container{
+    
     width: 96vw;
     height: 40vw;
     background-color: rgb(255, 255, 255);
@@ -31,7 +32,7 @@
 
     .container-textbox{
         
-
+        overflow: hidden;
         width: 40vw;
         height: 30vw;
         border: 1.1vw solid black;
@@ -62,6 +63,8 @@
     }
 
     .container-codebox{
+
+        overflow: hidden;
         
 
         width: 40vw;
